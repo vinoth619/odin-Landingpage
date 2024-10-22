@@ -1,0 +1,220 @@
+#first{
+   padding-top: 10px;
+    display: flex;
+    justify-content:first baseline;
+    background-color: #1F2937;
+
+    gap:800px;
+
+}
+a{
+  padding:10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+/* second div */
+h2{
+    
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#second{
+    display: flex;
+    gap: 200px;
+    padding-top: 20px;
+    background-color: #1F2937;
+
+}
+#secondone{
+    width: 500px;
+    padding:10px;
+    align-items:end;
+    text-align: justify;
+    margin-left: 50px;
+}
+button{
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    border-radius:3px;
+    border: none;
+    
+}
+ #secondone h1{
+    
+    text-transform:capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F9FAF8;
+    font-weight: bolder;
+
+}
+ #secondone P{
+    color: #F9FAF8;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:medium;
+}
+
+#plane{
+    width:280px;
+    height:300px;
+    
+}
+/* third */
+#third{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    
+}
+#third1 h2{
+    color: #1F2937;
+    font-weight: bolder;
+
+}
+
+
+#third p{
+    color: #1F2937;
+}
+.pht{
+    width: 200px;
+    height: 300px;
+
+}
+.pht img{
+    width: 200px;
+    height: 180px;
+    border: 1px #3882F6;
+
+}
+#fourth{
+    background-color:#E5E7EB;
+    text-align: center;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    font-style: italic;
+    color: #1F2937;
+}
+#fourth p {
+    color: #1F2937;
+    text-align: justify;
+}
+#fourth p b{
+    border:1px solid black;
+      justify-items: end;
+}
+#aut{
+    font-weight: bolder;
+}
+
+/* fifth */
+#fifthone{
+    color: white;
+    background-color:#3882F6;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap :30px;
+    border-radius: 1em;
+    padding-bottom: 10px;
+    
+}
+#fifthone button{
+     width: 100px;
+     height:40px ;
+     margin-top: 30px;
+     color:white;
+     border: 1px solid white;
+     background-color:#3882F6;
+
+}
+#fifthone div{
+    padding-top: 10px;
+}
+#fifth{
+ padding-top: 150px;
+ padding-bottom: 150px;
+ padding-left: 50px;
+ padding-right: 50px;
+
+}
+
+/* bott */
+#bott{
+text-align: center;
+color: aliceblue;
+background-color: #1F2937;
+padding: 20px;}
+
+
+@media screen and (max-width:1000px) {
+    #first{
+        padding: 10px;
+         display:block;
+         justify-content:first baseline;
+         background-color: #1F2937;
+
+           gap: 600px;
+        
+     
+     }
+     #first img{
+        display:none;
+     }
+
+     #second{
+        gap:100px;
+     }
+     h1,h2{
+      
+        font-size: 15px;
+    
+    }
+    p,b,h4{
+        font-size: 13px;
+    }
+    #fourth {
+        padding-left:150px;
+        padding-right:150px;
+        padding-top: 30px;
+        padding-bottom:30px;
+    }
+   
+    
+  
+  }
+
+  @media screen and (max-width:880px){
+    #second{
+        flex-wrap: wrap;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    #second img{
+        min-width:fit-content;
+        height: 300px;
+        justify-content: center;
+        padding-left:60px;
+    }
+  }
+
+  @media  screen and (max-width:580px){
+    #second img{
+        padding-left: 30px;
+    }
+  }
+    
+  
+
